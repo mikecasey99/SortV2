@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color:rgb(76, 76, 76);
+}
+
+.header-comp{
+  height: 7.5rem;
+  background-color: rgb(63, 63, 63);
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons{
+  display: flex;
+}
+
+.header-buttons > h1 {
+  color: white;
+  margin: 0 5em;
+}
+
+.header-buttons > button{
+  font-weight: 600;
+  display: block;
+  margin-right: 3em;
+  border: 1px solid black;
+  padding: 1em 2.5em;
+}
+
+.bar-display{
+  margin-top: 5em;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bar{
+  width: 30px;
+  background-color: rgb(142, 0, 54);
+  outline: 1px solid black;
+}
