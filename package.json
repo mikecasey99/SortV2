@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "is-array-sorted": "^3.0.0",
+    "is-sorted": "^1.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

@@ -5,6 +5,7 @@ export default function HeaderComp(props){
                 <h1>Sorting Visualizer</h1>
                 <button onClick={props.newArray}>Generate New Array</button>
                 <button onClick={props.bubbleSort}>Bubble Sort</button>
+                <button onClick={props.selectionSort}>Selection Sort</button>
             </div>
         </div>
     )

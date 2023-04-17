@@ -35,14 +35,15 @@ body, html{
 
 .bar-display{
   margin-top: 5em;
-  height: 300px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
 .bar{
-  width: 30px;
+  font-size: small;
+  width: 25px;
   background-color: rgb(142, 0, 54);
   outline: 1px solid black;
 }
